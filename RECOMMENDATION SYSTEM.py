@@ -3,8 +3,8 @@
 import pandas as pd
 import numpy as np
 
-movies = pd.read_csv('movies.csv')  # Movie titles
-ratings = pd.read_csv('ratings.csv')  # Ratings given by users
+movies = pd.read_csv('movies.csv') 
+ratings = pd.read_csv('ratings.csv')  
 
 
 print(movies.head())
